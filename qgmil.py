@@ -10,7 +10,9 @@ This module implements MIL models with key architectural innovations from Qwen3:
 These models are designed for Whole Slide Image (WSI) classification tasks
 and are compatible with the existing training pipeline.
 """
-
+# This file contains components adapted in part from the Qwen open-source implementation:
+# https://github.com/QwenLM/Qwen
+# Modifications were made for Multiple Instance Learning in medical imaging.
 import math
 from typing import Optional, Tuple, Dict, Any
 
