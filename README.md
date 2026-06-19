@@ -73,3 +73,17 @@ Optional mask:
 - The model expects pre-extracted instance features.  
 - All ablations described in the paper are accessible via configuration presets.  
 - Full training and evaluation code will be released after acceptance.
+
+## Acknowledgements
+
+QG-MIL was partially inspired by design choices from Qwen-style transformer blocks, including gated attention/MLP components and normalization strategies. Parts of our implementation were informed by the open-source Qwen implementation.
+
+We thank the Qwen team for releasing their models and code to the community.
+
+Please check out their work:
+- Qwen GitHub: https://github.com/QwenLM/Qwen
+- Qwen3 GitHub: https://github.com/QwenLM/Qwen3
+
+This project is independent and is not affiliated with or endorsed by the Qwen team or Alibaba Cloud.
+
+If you use this repository, please also consider checking the original Qwen repositories, which inspired parts of the implementation.
